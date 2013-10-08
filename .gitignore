@@ -2,3 +2,6 @@
 *.bak
 *.bck
 *.000
+
+# Eclipse
+Release
