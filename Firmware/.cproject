@@ -29,6 +29,10 @@
 									<listOptionValue builtIn="false" value="/home/eharstad/src/stellarisware"/>
 								</option>
 								<option id="gnu.c.compiler.option.misc.other.1764764025" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections" valueType="string"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.237359600" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="PART_TM4C123GH6PM"/>
+									<listOptionValue builtIn="false" value="TARGET_IS_BLIZZARD_RB1"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1080925015" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.71678588" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
@@ -42,7 +46,7 @@
 								<option id="gnu.c.link.option.paths.1549882427" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="/home/eharstad/src/stellarisware/driverlib/gcc"/>
 								</option>
-								<option id="gnu.c.link.option.ldflags.2088335705" name="Linker flags" superClass="gnu.c.link.option.ldflags" value="-Wl,–static,–gc-sections,-T../startup_src/TM4C.ld -mthumb -mcpu=cortex-m4" valueType="string"/>
+								<option id="gnu.c.link.option.ldflags.2088335705" name="Linker flags" superClass="gnu.c.link.option.ldflags" value="-Wl,--static,--gc-sections,-T../startup_src/TM4C.ld -mthumb -mcpu=cortex-m4" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.956456064" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -85,6 +89,10 @@
 									<listOptionValue builtIn="false" value="/home/eharstad/src/stellarisware"/>
 								</option>
 								<option id="gnu.c.compiler.option.misc.other.337976985" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections" valueType="string"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1251428594" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="PART_TM4C123GH6PM"/>
+									<listOptionValue builtIn="false" value="TARGET_IS_BLIZZARD_RB1"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.314568155" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.937306931" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
