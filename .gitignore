@@ -1,8 +1,12 @@
 # KiCad
-*.bak
+*bak
 *.bck
 *.000
+$*
 
 # Eclipse
 Release
 Debug
+
+# Vim
+*~

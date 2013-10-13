@@ -1,10 +1,101 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 07 Oct 2013 11:56:43 PM CDT
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/11/2013 2:19:35 AM
+
+BeginCmp
+TimeStamp = /525790DA/52579314;
+Reference = C1;
+ValeurCmp = 3.3uF;
+IdModule  = CAPC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/52579683;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/52579FB8;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/52579FC3;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/52579FCE;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/52579FD9;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/52579FE4;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/52579FEF;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/52579FFA;
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/5257A77D;
+Reference = C10;
+ValeurCmp = 1000pF;
+IdModule  = CAPC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/5257A797;
+Reference = C11;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/5257A785;
+Reference = FB1;
+ValeurCmp = FERRITE;
+IdModule  = INDC1608;
+EndCmp
 
 BeginCmp
 TimeStamp = /5253906A;
 Reference = J1;
 ValeurCmp = CUBESAT-BUS;
 IdModule  = CUBESAT-BUS;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/525790E0;
+Reference = U1;
+ValeurCmp = TM4C123GH6PZ;
+IdModule  = QFP50P1600X1600-100N;
 EndCmp
 
 EndListe

@@ -1,13 +1,14 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:Aerodyne_v2
-EELAYER 24 0
+LIBS:Hyperion-cache
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
-Date ""
+Date "11 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -37,4 +38,10 @@ F 3 "" H 2000 5350 60  0000 C CNN
 	2    2000 5350
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 5500 1700 1000 1000
+U 525790DA
+F0 "Core" 50
+F1 "Core.sch" 50
+$EndSheet
 $EndSCHEMATC

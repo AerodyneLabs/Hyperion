@@ -1,6 +1,6 @@
-update=Mon 07 Oct 2013 11:53:55 PM CDT
+update=10/11/2013 2:08:54 AM
 version=1
-last_client=pcbnew
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -8,17 +8,6 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=../../KiCadLib
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=power
-LibName2=Aerodyne_v2
 [pcbnew]
 version=1
 LastNetListRead=
@@ -41,3 +30,14 @@ ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
 LibDir=../../KiCadLib
 LibName1=Aerodyne_v2
+[eeschema]
+version=1
+LibDir=../../KiCadLib
+NetFmtName=PcbnewAdvanced
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=50
+[eeschema/libraries]
+LibName1=power
+LibName2=Aerodyne_v2
