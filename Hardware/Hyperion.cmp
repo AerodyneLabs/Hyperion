@@ -1,87 +1,136 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/11/2013 2:19:35 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/15/2014 4:11:26 AM
+
+BeginCmp
+TimeStamp = /525790DA/525B1976;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/525B1981;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/525B19A2;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/525B198C;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/525B1929;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1005-N;
+EndCmp
 
 BeginCmp
 TimeStamp = /525790DA/52579314;
-Reference = C1;
-ValeurCmp = 3.3uF;
-IdModule  = CAPC1608;
-EndCmp
-
-BeginCmp
-TimeStamp = /525790DA/52579683;
-Reference = C2;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1608;
-EndCmp
-
-BeginCmp
-TimeStamp = /525790DA/52579FB8;
-Reference = C3;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1608;
-EndCmp
-
-BeginCmp
-TimeStamp = /525790DA/52579FC3;
-Reference = C4;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1608;
-EndCmp
-
-BeginCmp
-TimeStamp = /525790DA/52579FCE;
-Reference = C5;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1608;
-EndCmp
-
-BeginCmp
-TimeStamp = /525790DA/52579FD9;
 Reference = C6;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1608;
+ValeurCmp = 3.3uF;
+IdModule  = CAPC1005-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /525790DA/52579FE4;
+TimeStamp = /525790DA/525B1934;
 Reference = C7;
 ValeurCmp = 0.1uF;
-IdModule  = CAPC1608;
+IdModule  = CAPC1005-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /525790DA/52579FEF;
+TimeStamp = /525790DA/525B1A39;
 Reference = C8;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1608;
-EndCmp
-
-BeginCmp
-TimeStamp = /525790DA/52579FFA;
-Reference = C9;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1608;
+ValeurCmp = 20pF;
+IdModule  = CAPC1005-N;
 EndCmp
 
 BeginCmp
 TimeStamp = /525790DA/5257A77D;
-Reference = C10;
+Reference = C9;
 ValeurCmp = 1000pF;
-IdModule  = CAPC1608;
+IdModule  = CAPC1005-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /525790DA/5257A797;
-Reference = C11;
+TimeStamp = /525790DA/525B193F;
+Reference = C10;
 ValeurCmp = 0.1uF;
-IdModule  = CAPC1608;
+IdModule  = CAPC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/525B1A2A;
+Reference = C11;
+ValeurCmp = 20pF;
+IdModule  = CAPC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/525B1997;
+Reference = C12;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/525B194A;
+Reference = C13;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/525B1955;
+Reference = C14;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/5257B0D4;
+Reference = C15;
+ValeurCmp = C;
+IdModule  = CAPC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/525B1960;
+Reference = C16;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/5257B0B9;
+Reference = C17;
+ValeurCmp = C;
+IdModule  = CAPC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/525B196B;
+Reference = C18;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1005-N;
 EndCmp
 
 BeginCmp
 TimeStamp = /525790DA/5257A785;
 Reference = FB1;
-ValeurCmp = FERRITE;
-IdModule  = INDC1608;
+ValeurCmp = 10;
+IdModule  = INDC1005-N;
 EndCmp
 
 BeginCmp
@@ -92,10 +141,45 @@ IdModule  = CUBESAT-BUS;
 EndCmp
 
 BeginCmp
+TimeStamp = /525790DA/5259EA5C;
+Reference = J2;
+ValeurCmp = DEBUG-ARM-10;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/5259DEE6;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = RESC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/5259E10A;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = RESC1005-N;
+EndCmp
+
+BeginCmp
 TimeStamp = /525790DA/525790E0;
 Reference = U1;
 ValeurCmp = TM4C123GH6PZ;
 IdModule  = QFP50P1600X1600-100N;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/5257ADF0;
+Reference = X1;
+ValeurCmp = 32.768kHz;
+IdModule  = XTAL-2SMD-32x15;
+EndCmp
+
+BeginCmp
+TimeStamp = /525790DA/5257B0AA;
+Reference = X2;
+ValeurCmp = 16MHz;
+IdModule  = XTAL-2SMD-50X32;
 EndCmp
 
 EndListe
