@@ -1,0 +1,10 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/26/2014 3:03:09 AM
+
+BeginCmp
+TimeStamp = /530D9DB3/530D9DF3;
+Reference = H1;
+ValeurCmp = CUBESAT-BUS;
+IdModule  = CUBESAT-BUS;
+EndCmp
+
+EndListe
