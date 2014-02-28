@@ -1,10 +1,66 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/26/2014 3:03:09 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/27/2014 1:45:11 AM
+
+BeginCmp
+TimeStamp = /530DB905/530EE8FC;
+Reference = D1;
+ValeurCmp = TVS;
+IdModule  = CAPC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DB905/530EE926;
+Reference = D2;
+ValeurCmp = TVS;
+IdModule  = CAPC1005-N;
+EndCmp
 
 BeginCmp
 TimeStamp = /530D9DB3/530D9DF3;
 Reference = H1;
 ValeurCmp = CUBESAT-BUS;
 IdModule  = CUBESAT-BUS;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DB905/530E64D8;
+Reference = J1;
+ValeurCmp = CONN-DC;
+IdModule  = CONN-DC-CUI-202;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DB905/530E725A;
+Reference = J2;
+ValeurCmp = USB;
+IdModule  = CONN-USB-MICRO-B-FCI;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DB905/530EE940;
+Reference = R1;
+ValeurCmp = MOV;
+IdModule  = RESC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DB905/530EE985;
+Reference = R2;
+ValeurCmp = MOV;
+IdModule  = RESC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DB905/530EE15E;
+Reference = TH1;
+ValeurCmp = PTC;
+IdModule  = RESC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DB905/530EDAE6;
+Reference = U1;
+ValeurCmp = FT2232H;
+IdModule  = QFP50P1200X1200-64N;
 EndCmp
 
 EndListe

@@ -1,13 +1,14 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:Aerodyne_v2
+LIBS:Hyperion-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title ""
-Date "26 feb 2014"
+Date "28 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,5 +45,12 @@ S 1800 3200 1000 1000
 U 530DB905
 F0 "Interface Port" 50
 F1 "Interface-Port.sch" 50
+F2 "TCK" O R 2800 3300 60 
+F3 "TDI" O R 2800 3400 60 
+F4 "TDO" I R 2800 3500 60 
+F5 "TMS" O R 2800 3600 60 
+F6 "TXD" O R 2800 3900 60 
+F7 "RXD" I R 2800 4000 60 
+F8 "RST" O R 2800 3700 60 
 $EndSheet
 $EndSCHEMATC
