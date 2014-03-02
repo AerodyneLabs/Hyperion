@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/2/2014 2:46:13 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/2/2014 2:51:58 AM
 
 BeginCmp
 TimeStamp = /530DB905/53132B3A;
@@ -151,14 +151,14 @@ BeginCmp
 TimeStamp = /530DB905/530E725A;
 Reference = J1;
 ValeurCmp = USB;
-IdModule  = CONN-DC-CUI-202;
+IdModule  = CONN-USB-MICRO-B-FCI;
 EndCmp
 
 BeginCmp
 TimeStamp = /530DB905/530E64D8;
 Reference = J2;
 ValeurCmp = CONN-DC;
-IdModule  = CONN-USB-MICRO-B-FCI;
+IdModule  = CONN-DC-CUI-202;
 EndCmp
 
 BeginCmp
@@ -235,7 +235,7 @@ BeginCmp
 TimeStamp = /530DB905/530EE15E;
 Reference = TH1;
 ValeurCmp = PTC;
-IdModule  = RESC1005-N;
+IdModule  = RESC3216-N;
 EndCmp
 
 BeginCmp
