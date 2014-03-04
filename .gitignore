@@ -3,6 +3,7 @@
 *.bck
 *.000
 $*
+*_autosave*
 
 # Eclipse
 Release

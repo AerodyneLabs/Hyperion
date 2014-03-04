@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/2/2014 2:51:58 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/3/2014 7:04:05 PM
 
 BeginCmp
 TimeStamp = /530DB905/53132B3A;
@@ -162,6 +162,20 @@ IdModule  = CONN-DC-CUI-202;
 EndCmp
 
 BeginCmp
+TimeStamp = /530DB905/53150F21;
+Reference = Q1;
+ValeurCmp = MOSFET-P;
+IdModule  = SOT65P210-DDGSDD-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DB905/53152246;
+Reference = Q2;
+ValeurCmp = FDC6561;
+IdModule  = SOT95P280-6N;
+EndCmp
+
+BeginCmp
 TimeStamp = /530DB905/530EE940;
 Reference = R1;
 ValeurCmp = MOV;
@@ -232,6 +246,13 @@ IdModule  = RESC1005-N;
 EndCmp
 
 BeginCmp
+TimeStamp = /530DB905/53150F53;
+Reference = R11;
+ValeurCmp = 0.02;
+IdModule  = RESC3216-N;
+EndCmp
+
+BeginCmp
 TimeStamp = /530DB905/530EE15E;
 Reference = TH1;
 ValeurCmp = PTC;
@@ -250,6 +271,13 @@ TimeStamp = /530DB905/530FA75D;
 Reference = U2;
 ValeurCmp = 93LC46/OT;
 IdModule  = SOT95P280-6N;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DB905/53150BF6;
+Reference = U3;
+ValeurCmp = LTC4361-T;
+IdModule  = SOT65P280-8N;
 EndCmp
 
 BeginCmp
