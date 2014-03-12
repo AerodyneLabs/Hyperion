@@ -6,9 +6,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
-Date "4 mar 2014"
+Date "12 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -53,4 +53,38 @@ F6 "TXD" O R 2800 3900 60
 F7 "RXD" I R 2800 4000 60 
 F8 "RST" O R 2800 3700 60 
 $EndSheet
+$Sheet
+S 3800 1200 1000 2000
+U 531F27A0
+F0 "Core" 50
+F1 "Core.sch" 50
+F2 "TDI" I L 3800 1400 60 
+F3 "TDO" O L 3800 1500 60 
+F4 "TCK" I L 3800 1300 60 
+F5 "TMS" I L 3800 1600 60 
+$EndSheet
+Wire Wire Line
+	2800 3300 2900 3300
+Wire Wire Line
+	2900 3300 2900 1300
+Wire Wire Line
+	2900 1300 3800 1300
+Wire Wire Line
+	2800 3400 3000 3400
+Wire Wire Line
+	3000 3400 3000 1400
+Wire Wire Line
+	3000 1400 3800 1400
+Wire Wire Line
+	2800 3500 3100 3500
+Wire Wire Line
+	3100 3500 3100 1500
+Wire Wire Line
+	3100 1500 3800 1500
+Wire Wire Line
+	2800 3600 3200 3600
+Wire Wire Line
+	3200 3600 3200 1600
+Wire Wire Line
+	3200 1600 3800 1600
 $EndSCHEMATC
