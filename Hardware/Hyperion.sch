@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title ""
-Date "12 mar 2014"
+Date "15 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -62,6 +62,8 @@ F2 "TDI" I L 3800 1400 60
 F3 "TDO" O L 3800 1500 60 
 F4 "TCK" I L 3800 1300 60 
 F5 "TMS" I L 3800 1600 60 
+F6 "RST" I L 3800 1700 60 
+F7 "ADCS[0..7]" B R 4800 1500 60 
 $EndSheet
 Wire Wire Line
 	2800 3300 2900 3300
@@ -87,4 +89,10 @@ Wire Wire Line
 	3200 3600 3200 1600
 Wire Wire Line
 	3200 1600 3800 1600
+Wire Bus Line
+	4800 1500 8300 1500
+Wire Bus Line
+	8300 1500 8300 3600
+Wire Bus Line
+	8300 3600 8600 3600
 $EndSCHEMATC
