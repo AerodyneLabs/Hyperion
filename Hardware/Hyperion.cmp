@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/12/2014 4:43:47 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/15/2014 10:07:51 PM
 
 BeginCmp
 TimeStamp = /530DB905/53132B3A;
@@ -274,6 +274,13 @@ IdModule  = CAPC1005-N;
 EndCmp
 
 BeginCmp
+TimeStamp = /531F27A0/53251DE8;
+Reference = C40;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1005-N;
+EndCmp
+
+BeginCmp
 TimeStamp = /530DB905/530EE8FC;
 Reference = D1;
 ValeurCmp = TVS;
@@ -428,6 +435,20 @@ IdModule  = RESC1005-N;
 EndCmp
 
 BeginCmp
+TimeStamp = /531F27A0/532519A6;
+Reference = R13;
+ValeurCmp = 10k;
+IdModule  = RESC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F27A0/532516EC;
+Reference = R14;
+ValeurCmp = 120;
+IdModule  = RESC1005-N;
+EndCmp
+
+BeginCmp
 TimeStamp = /530DB905/530EE15E;
 Reference = TH1;
 ValeurCmp = PTC;
@@ -460,6 +481,13 @@ TimeStamp = /531F27A0/531F296C;
 Reference = U4;
 ValeurCmp = TM4C123GH6PGE;
 IdModule  = QFP50P2200X2200-144N;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F27A0/532516DD;
+Reference = U5;
+ValeurCmp = SN65HVD233;
+IdModule  = SOIC127P600-8N;
 EndCmp
 
 BeginCmp
