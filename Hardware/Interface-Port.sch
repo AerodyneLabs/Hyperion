@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title ""
-Date "16 mar 2014"
+Date "17 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1439,4 +1439,6 @@ F 8 "NP0" H 10450 3100 60  0001 R CNN "Dielectric"
 	1    10500 2950
 	1    0    0    -1  
 $EndComp
+Text HLabel 5000 4500 0    60   Output ~ 0
+TRST
 $EndSCHEMATC

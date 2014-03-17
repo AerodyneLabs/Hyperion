@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/15/2014 10:07:51 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/16/2014 10:38:26 PM
 
 BeginCmp
 TimeStamp = /530DB905/53132B3A;
@@ -113,106 +113,36 @@ IdModule  = CAPC1005-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F27A0/531F392E;
+TimeStamp = /531F27A0/5326A8FA;
 Reference = C17;
-ValeurCmp = 0.1uF;
+ValeurCmp = 2.2uF;
 IdModule  = CAPC1005-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F27A0/531F397A;
+TimeStamp = /531F27A0/5326A8B9;
 Reference = C18;
-ValeurCmp = 0.1uF;
+ValeurCmp = 2.2uF;
 IdModule  = CAPC1005-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F27A0/531F3939;
+TimeStamp = /531F27A0/5326A60A;
 Reference = C19;
 ValeurCmp = 0.1uF;
 IdModule  = CAPC1005-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F27A0/531F3985;
+TimeStamp = /531F27A0/5326A633;
 Reference = C20;
 ValeurCmp = 0.1uF;
 IdModule  = CAPC1005-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F27A0/531F394E;
+TimeStamp = /531F27A0/5326A81B;
 Reference = C21;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1005-N;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F27A0/531F3990;
-Reference = C22;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1005-N;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F27A0/531F3959;
-Reference = C23;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1005-N;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F27A0/531F399B;
-Reference = C24;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1005-N;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F27A0/531F3964;
-Reference = C25;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1005-N;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F27A0/531F39A6;
-Reference = C26;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1005-N;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F27A0/531F396F;
-Reference = C27;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1005-N;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F27A0/531F39B1;
-Reference = C28;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1005-N;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F27A0/531F4311;
-Reference = C29;
-ValeurCmp = 3.3uF;
-IdModule  = CAPC1005-N;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F27A0/531F431C;
-Reference = C30;
-ValeurCmp = 3.3uF;
-IdModule  = CAPC1005-N;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F27A0/531F374A;
-Reference = C31;
 ValeurCmp = 0.1uF;
 IdModule  = CAPC1005-N;
 EndCmp
@@ -253,27 +183,6 @@ IdModule  = CAPC1005-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F27A0/531F654B;
-Reference = C37;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1005-N;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F27A0/5320D5A0;
-Reference = C38;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1005-N;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F27A0/5320D29E;
-Reference = C39;
-ValeurCmp = 0.1uF;
-IdModule  = CAPC1005-N;
-EndCmp
-
-BeginCmp
 TimeStamp = /531F27A0/53251DE8;
 Reference = C40;
 ValeurCmp = 0.1uF;
@@ -309,7 +218,7 @@ IdModule  = INDC1005-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F27A0/5320CF0C;
+TimeStamp = /531F27A0/5326A778;
 Reference = FB3;
 ValeurCmp = FERRITE;
 IdModule  = INDC1005-N;
@@ -428,9 +337,9 @@ IdModule  = RESC3216-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F27A0/5320D153;
+TimeStamp = /531F27A0/5326A992;
 Reference = R12;
-ValeurCmp = 1k;
+ValeurCmp = 10k;
 IdModule  = RESC1005-N;
 EndCmp
 
@@ -477,9 +386,9 @@ IdModule  = SOT65P280-8N;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F27A0/531F296C;
+TimeStamp = /531F27A0/53269973;
 Reference = U4;
-ValeurCmp = TM4C123GH6PGE;
+ValeurCmp = STM32F407ZE;
 IdModule  = QFP50P2200X2200-144N;
 EndCmp
 
