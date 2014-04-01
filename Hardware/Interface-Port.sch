@@ -7,11 +7,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title ""
-Date "17 mar 2014"
-Rev ""
-Comp ""
-Comment1 ""
+Title "Hyperion"
+Date "1 apr 2014"
+Rev "0.2"
+Comp "Aerodyne Labs"
+Comment1 "ethanharstad@gmail.com"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -917,7 +917,6 @@ Wire Wire Line
 	6400 5300 6500 5300
 NoConn ~ 5100 4500
 NoConn ~ 5100 4600
-NoConn ~ 5100 4700
 NoConn ~ 5100 4800
 NoConn ~ 5100 4900
 NoConn ~ 5100 5000
@@ -936,7 +935,7 @@ NoConn ~ 6400 4800
 NoConn ~ 6400 4900
 NoConn ~ 6400 5200
 NoConn ~ 6400 5300
-Text HLabel 5000 4600 0    60   Output ~ 0
+Text HLabel 3400 4400 0    60   Output ~ 0
 RST
 $Comp
 L FT2232H U1
@@ -1439,6 +1438,19 @@ F 8 "NP0" H 10450 3100 60  0001 R CNN "Dielectric"
 	1    10500 2950
 	1    0    0    -1  
 $EndComp
-Text HLabel 5000 4500 0    60   Output ~ 0
-TRST
+$Comp
+L GND #PWR?
+U 1 1 5329F06C
+P 5000 5700
+F 0 "#PWR?" H 5000 5700 30  0001 C CNN
+F 1 "GND" H 5000 5630 30  0001 C CNN
+F 2 "" H 5000 5700 60  0000 C CNN
+F 3 "" H 5000 5700 60  0000 C CNN
+	1    5000 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5700 5000 4700
+Wire Wire Line
+	5000 4700 5100 4700
 $EndSCHEMATC

@@ -7,11 +7,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title ""
-Date "17 mar 2014"
-Rev ""
-Comp ""
-Comment1 ""
+Title "Hyperion"
+Date "1 apr 2014"
+Rev "0.2"
+Comp "Aerodyne Labs"
+Comment1 "ethanharstad@gmail.com"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -52,110 +52,11 @@ F5 "TMS" O R 2800 3600 60
 F6 "TXD" O R 2800 4000 60 
 F7 "RXD" I R 2800 4100 60 
 F8 "RST" O R 2800 3800 60 
-F9 "TRST" O R 2800 3700 60 
 $EndSheet
 $Sheet
-S 3800 1200 1000 2000
-U 531F27A0
+S 5350 2400 1000 2000
+U 533BABFA
 F0 "Core" 50
 F1 "Core.sch" 50
-F2 "TDI" I L 3800 1400 60 
-F3 "TDO" O L 3800 1500 60 
-F4 "TCK" I L 3800 1300 60 
-F5 "TMS" I L 3800 1600 60 
-F6 "RST" I L 3800 1800 60 
-F7 "ADCS[0..7]" B R 4800 1500 60 
-F8 "EPS[0..7]" B R 4800 1300 60 
-F9 "COM[0..7]" B R 4800 1400 60 
-F10 "PAY[0..5]" B R 4800 1600 60 
-F11 "USR[0..5]" B R 4800 1700 60 
-F12 "D[0..7]" B R 4800 1800 60 
-F13 "CANH" B R 4800 2900 60 
-F14 "CANL" I R 4800 3000 60 
-F15 "TRST" I L 3800 1700 60 
 $EndSheet
-Wire Wire Line
-	2800 3300 2900 3300
-Wire Wire Line
-	2900 3300 2900 1300
-Wire Wire Line
-	2900 1300 3800 1300
-Wire Wire Line
-	2800 3400 3000 3400
-Wire Wire Line
-	3000 3400 3000 1400
-Wire Wire Line
-	3000 1400 3800 1400
-Wire Wire Line
-	2800 3500 3100 3500
-Wire Wire Line
-	3100 3500 3100 1500
-Wire Wire Line
-	3100 1500 3800 1500
-Wire Wire Line
-	2800 3600 3200 3600
-Wire Wire Line
-	3200 3600 3200 1600
-Wire Wire Line
-	3200 1600 3800 1600
-Wire Bus Line
-	4800 1500 8300 1500
-Wire Bus Line
-	8300 1500 8300 3600
-Wire Bus Line
-	8300 3600 8600 3600
-Wire Bus Line
-	4800 1400 8400 1400
-Wire Bus Line
-	8400 1400 8400 3500
-Wire Bus Line
-	8400 3500 8600 3500
-Wire Bus Line
-	8600 3400 8500 3400
-Wire Bus Line
-	8500 3400 8500 1300
-Wire Bus Line
-	8500 1300 4800 1300
-Wire Bus Line
-	4800 1600 8200 1600
-Wire Bus Line
-	8200 1600 8200 3700
-Wire Bus Line
-	8200 3700 8600 3700
-Wire Bus Line
-	8600 3800 8100 3800
-Wire Bus Line
-	8100 3800 8100 1700
-Wire Bus Line
-	8100 1700 4800 1700
-Wire Bus Line
-	4800 1800 8000 1800
-Wire Bus Line
-	8000 1800 8000 3900
-Wire Bus Line
-	8000 3900 8600 3900
-Wire Wire Line
-	4800 3000 6700 3000
-Wire Wire Line
-	6700 3000 6700 5100
-Wire Wire Line
-	6700 5100 8600 5100
-Wire Wire Line
-	8600 5000 6800 5000
-Wire Wire Line
-	6800 5000 6800 2900
-Wire Wire Line
-	6800 2900 4800 2900
-Wire Wire Line
-	2800 3700 3300 3700
-Wire Wire Line
-	3300 3700 3300 1700
-Wire Wire Line
-	3300 1700 3800 1700
-Wire Wire Line
-	2800 3800 3400 3800
-Wire Wire Line
-	3400 3800 3400 1800
-Wire Wire Line
-	3400 1800 3800 1800
 $EndSCHEMATC
