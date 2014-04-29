@@ -4,11 +4,11 @@ LIBS:Aerodyne_v2
 LIBS:Hyperion-cache
 EELAYER 27 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 4 4
 Title "Hyperion"
-Date "1 apr 2014"
+Date "29 apr 2014"
 Rev "0.2"
 Comp "Aerodyne Labs"
 Comment1 "ethanharstad@gmail.com"
@@ -16,4 +16,909 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L STM32F427I U?
+U 1 1 533BC0A0
+P 850 1550
+F 0 "U?" H 850 2400 60  0000 C CNN
+F 1 "STM32F427IIT6" V 650 2300 60  0000 R CNN
+F 2 "" H 850 1550 60  0000 C CNN
+F 3 "" H 850 1550 60  0000 C CNN
+F 4 "ST" H 850 1550 60  0001 C CNN "MFR Name"
+F 5 "STM32F427IIT6" H 850 1550 60  0001 C CNN "MFR Part No"
+F 6 "497-14051-ND" H 850 1550 60  0001 C CNN "Distributor Part No"
+	1    850  1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F427I U?
+U 2 1 533BC0CF
+P 850 3450
+F 0 "U?" H 850 4300 60  0000 C CNN
+F 1 "STM32F427IIT6" V 650 4200 60  0000 R CNN
+F 2 "" H 850 3450 60  0000 C CNN
+F 3 "" H 850 3450 60  0000 C CNN
+F 4 "ST" H 850 3450 60  0001 C CNN "MFR Name"
+F 5 "STM32F427IIT6" H 850 3450 60  0001 C CNN "MFR Part No"
+F 6 "497-14051-ND" H 850 3450 60  0001 C CNN "Distributor Part No"
+	2    850  3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F427I U?
+U 3 1 533BC0D8
+P 850 5350
+F 0 "U?" H 850 6200 60  0000 C CNN
+F 1 "STM32F427IIT6" V 650 6100 60  0000 R CNN
+F 2 "" H 850 5350 60  0000 C CNN
+F 3 "" H 850 5350 60  0000 C CNN
+F 4 "ST" H 850 5350 60  0001 C CNN "MFR Name"
+F 5 "STM32F427IIT6" H 850 5350 60  0001 C CNN "MFR Part No"
+F 6 "497-14051-ND" H 850 5350 60  0001 C CNN "Distributor Part No"
+	3    850  5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F427I U?
+U 4 1 533BC14A
+P 2350 1550
+F 0 "U?" H 2350 2400 60  0000 C CNN
+F 1 "STM32F427IIT6" V 2150 2300 60  0000 R CNN
+F 2 "" H 2350 1550 60  0000 C CNN
+F 3 "" H 2350 1550 60  0000 C CNN
+F 4 "ST" H 2350 1550 60  0001 C CNN "MFR Name"
+F 5 "STM32F427IIT6" H 2350 1550 60  0001 C CNN "MFR Part No"
+F 6 "497-14051-ND" H 2350 1550 60  0001 C CNN "Distributor Part No"
+	4    2350 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F427I U?
+U 5 1 533BC153
+P 2350 3450
+F 0 "U?" H 2350 4300 60  0000 C CNN
+F 1 "STM32F427IIT6" V 2150 4200 60  0000 R CNN
+F 2 "" H 2350 3450 60  0000 C CNN
+F 3 "" H 2350 3450 60  0000 C CNN
+F 4 "ST" H 2350 3450 60  0001 C CNN "MFR Name"
+F 5 "STM32F427IIT6" H 2350 3450 60  0001 C CNN "MFR Part No"
+F 6 "497-14051-ND" H 2350 3450 60  0001 C CNN "Distributor Part No"
+	5    2350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F427I U?
+U 6 1 533BC15C
+P 2350 5350
+F 0 "U?" H 2350 6200 60  0000 C CNN
+F 1 "STM32F427IIT6" V 2150 6100 60  0000 R CNN
+F 2 "" H 2350 5350 60  0000 C CNN
+F 3 "" H 2350 5350 60  0000 C CNN
+F 4 "ST" H 2350 5350 60  0001 C CNN "MFR Name"
+F 5 "STM32F427IIT6" H 2350 5350 60  0001 C CNN "MFR Part No"
+F 6 "497-14051-ND" H 2350 5350 60  0001 C CNN "Distributor Part No"
+	6    2350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F427I U?
+U 7 1 533BC17D
+P 3850 1550
+F 0 "U?" H 3850 2400 60  0000 C CNN
+F 1 "STM32F427IIT6" V 3650 2300 60  0000 R CNN
+F 2 "" H 3850 1550 60  0000 C CNN
+F 3 "" H 3850 1550 60  0000 C CNN
+F 4 "ST" H 3850 1550 60  0001 C CNN "MFR Name"
+F 5 "STM32F427IIT6" H 3850 1550 60  0001 C CNN "MFR Part No"
+F 6 "497-14051-ND" H 3850 1550 60  0001 C CNN "Distributor Part No"
+	7    3850 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F427I U?
+U 8 1 533BC186
+P 3850 3450
+F 0 "U?" H 3850 4300 60  0000 C CNN
+F 1 "STM32F427IIT6" V 3650 4200 60  0000 R CNN
+F 2 "" H 3850 3450 60  0000 C CNN
+F 3 "" H 3850 3450 60  0000 C CNN
+F 4 "ST" H 3850 3450 60  0001 C CNN "MFR Name"
+F 5 "STM32F427IIT6" H 3850 3450 60  0001 C CNN "MFR Part No"
+F 6 "497-14051-ND" H 3850 3450 60  0001 C CNN "Distributor Part No"
+	8    3850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F427I U?
+U 9 1 533BC18F
+P 3850 5350
+F 0 "U?" H 3850 6200 60  0000 C CNN
+F 1 "STM32F427IIT6" V 3650 6100 60  0000 R CNN
+F 2 "" H 3850 5350 60  0000 C CNN
+F 3 "" H 3850 5350 60  0000 C CNN
+F 4 "ST" H 3850 5350 60  0001 C CNN "MFR Name"
+F 5 "STM32F427IIT6" H 3850 5350 60  0001 C CNN "MFR Part No"
+F 6 "497-14051-ND" H 3850 5350 60  0001 C CNN "Distributor Part No"
+	9    3850 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F427I U?
+U 10 1 533BC1B0
+P 6350 1550
+F 0 "U?" H 6350 2400 60  0000 C CNN
+F 1 "STM32F427IIT6" V 6150 2300 60  0000 R CNN
+F 2 "" H 6350 1550 60  0000 C CNN
+F 3 "" H 6350 1550 60  0000 C CNN
+F 4 "ST" H 6350 1550 60  0001 C CNN "MFR Name"
+F 5 "STM32F427IIT6" H 6350 1550 60  0001 C CNN "MFR Part No"
+F 6 "497-14051-ND" H 6350 1550 60  0001 C CNN "Distributor Part No"
+	10   6350 1550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L STM32F427I U?
+U 11 1 533BC1B9
+P 6950 1550
+F 0 "U?" H 6950 2400 60  0000 C CNN
+F 1 "STM32F427IIT6" V 6750 2300 60  0000 R CNN
+F 2 "" H 6950 1550 60  0000 C CNN
+F 3 "" H 6950 1550 60  0000 C CNN
+F 4 "ST" H 6950 1550 60  0001 C CNN "MFR Name"
+F 5 "STM32F427IIT6" H 6950 1550 60  0001 C CNN "MFR Part No"
+F 6 "497-14051-ND" H 6950 1550 60  0001 C CNN "Distributor Part No"
+	11   6950 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L AS6C4008-55ST U?
+U 1 1 535DAAA6
+P 12800 8100
+F 0 "U?" H 12800 9100 60  0000 C CNN
+F 1 "AS6C4008-55ST" H 12800 7100 60  0000 C CNN
+F 2 "" H 12800 8100 60  0000 C CNN
+F 3 "" H 12800 8100 60  0000 C CNN
+	1    12800 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L S29AL016J-T U?
+U 1 1 535DAAC4
+P 12800 2200
+F 0 "U?" H 12800 3400 60  0000 C CNN
+F 1 "S29AL016J-T" H 12800 1000 60  0000 C CNN
+F 2 "" H 12800 1100 60  0000 C CNN
+F 3 "" H 12800 1100 60  0000 C CNN
+	1    12800 2200
+	1    0    0    -1  
+$EndComp
+Text Label 12200 1100 2    60   ~ 0
+~M_CE2
+Text Label 12200 1300 2    60   ~ 0
+~M_WE
+Text Label 12200 1200 2    60   ~ 0
+~M_OE
+Text Label 13400 1100 0    60   ~ 0
+M_RDY
+Text Label 2800 4600 0    60   ~ 0
+M_A0
+Text Label 2800 4700 0    60   ~ 0
+M_A1
+Text Label 2800 4800 0    60   ~ 0
+M_A2
+Text Label 2800 4900 0    60   ~ 0
+M_A3
+Text Label 2800 5000 0    60   ~ 0
+M_A4
+Text Label 2800 5100 0    60   ~ 0
+M_A5
+Text Label 2800 5800 0    60   ~ 0
+M_A6
+Text Label 2800 5900 0    60   ~ 0
+M_A7
+Text Label 2800 6000 0    60   ~ 0
+M_A8
+Text Label 2800 6100 0    60   ~ 0
+M_A9
+Text Label 4300 800  0    60   ~ 0
+M_A10
+Text Label 2800 1900 0    60   ~ 0
+M_A16
+Text Label 2800 2000 0    60   ~ 0
+M_A17
+Text Label 2800 2100 0    60   ~ 0
+M_A18
+Text Label 2800 3000 0    60   ~ 0
+M_A19
+Text Label 2800 3100 0    60   ~ 0
+M_A20
+Text Label 2800 2200 0    60   ~ 0
+M_D0
+Text Label 2800 2300 0    60   ~ 0
+M_D1
+Text Label 2800 800  0    60   ~ 0
+M_D2
+Text Label 2800 900  0    60   ~ 0
+M_D3
+Text Label 2800 3400 0    60   ~ 0
+M_D4
+Text Label 2800 3500 0    60   ~ 0
+M_D5
+Text Label 2800 3600 0    60   ~ 0
+M_D6
+Text Label 2800 3700 0    60   ~ 0
+M_D7
+Text Label 2800 1500 0    60   ~ 0
+~M_CE1
+Text Label 4300 1700 0    60   ~ 0
+~M_CE2
+Text Label 4300 1800 0    60   ~ 0
+~M_CE3
+Text Label 2800 1200 0    60   ~ 0
+~M_OE
+Text Label 2800 1300 0    60   ~ 0
+~M_WE
+Text Label 2800 1400 0    60   ~ 0
+M_RDY
+Text Label 1300 3400 0    60   ~ 0
+~M_LE
+Text Label 4300 2700 0    60   ~ 0
+OSC0
+Text Label 4300 2800 0    60   ~ 0
+OSC1
+Text Label 1300 6000 0    60   ~ 0
+SOSC0
+Text Label 1300 6100 0    60   ~ 0
+SOSC1
+Text Label 1300 5400 0    60   ~ 0
+SD_D0
+Text Label 1300 5500 0    60   ~ 0
+SD_D1
+Text Label 1300 5600 0    60   ~ 0
+SD_D2
+Text Label 1300 5700 0    60   ~ 0
+SD_D3
+Text Label 1300 5800 0    60   ~ 0
+SD_CK
+Text Label 2800 1000 0    60   ~ 0
+SD_CMD
+Text Label 1300 2100 0    60   ~ 0
+JTMS
+Text Label 1300 2200 0    60   ~ 0
+JTCK
+Text Label 1300 2300 0    60   ~ 0
+JTDI
+Text Label 1300 3000 0    60   ~ 0
+JTDO
+Text Label 1300 3100 0    60   ~ 0
+JTRST
+Text Label 13400 7200 0    60   ~ 0
+~M_CE1
+Text Label 13400 7300 0    60   ~ 0
+~M_WE
+Text Label 13400 7400 0    60   ~ 0
+~M_OE
+Wire Wire Line
+	12200 1100 12300 1100
+Wire Wire Line
+	12200 1200 12300 1200
+Wire Wire Line
+	12200 1300 12300 1300
+Wire Wire Line
+	12200 1400 12300 1400
+Wire Wire Line
+	12200 1500 12300 1500
+Wire Wire Line
+	12200 1600 12300 1600
+Wire Wire Line
+	12200 1700 12300 1700
+Wire Wire Line
+	12200 1800 12300 1800
+Wire Wire Line
+	12200 1900 12300 1900
+Wire Wire Line
+	12200 2000 12300 2000
+Wire Wire Line
+	12200 2100 12300 2100
+Wire Wire Line
+	12200 2200 12300 2200
+Wire Wire Line
+	12200 2300 12300 2300
+Wire Wire Line
+	12200 2400 12300 2400
+Wire Wire Line
+	12200 2500 12300 2500
+Wire Wire Line
+	12200 2600 12300 2600
+Wire Wire Line
+	12200 2700 12300 2700
+Wire Wire Line
+	12200 2800 12300 2800
+Wire Wire Line
+	12200 2900 12300 2900
+Wire Wire Line
+	12200 3000 12300 3000
+Wire Wire Line
+	12200 3100 12300 3100
+Wire Wire Line
+	12200 3200 12300 3200
+Wire Wire Line
+	12200 3300 12300 3300
+Wire Wire Line
+	12200 7200 12300 7200
+Wire Wire Line
+	12200 7300 12300 7300
+Wire Wire Line
+	12200 7400 12300 7400
+Wire Wire Line
+	12200 7500 12300 7500
+Wire Wire Line
+	12200 7600 12300 7600
+Wire Wire Line
+	12200 7700 12300 7700
+Wire Wire Line
+	12200 7800 12300 7800
+Wire Wire Line
+	12200 7900 12300 7900
+Wire Wire Line
+	12200 8000 12300 8000
+Wire Wire Line
+	12200 8100 12300 8100
+Wire Wire Line
+	12200 8200 12300 8200
+Wire Wire Line
+	12200 8300 12300 8300
+Wire Wire Line
+	12200 8400 12300 8400
+Wire Wire Line
+	12200 8500 12300 8500
+Wire Wire Line
+	12200 8600 12300 8600
+Wire Wire Line
+	12200 8700 12300 8700
+Wire Wire Line
+	12200 8800 12300 8800
+Wire Wire Line
+	12200 8900 12300 8900
+Wire Wire Line
+	12200 9000 12300 9000
+Wire Wire Line
+	13300 7200 13400 7200
+Wire Wire Line
+	13300 7300 13400 7300
+Wire Wire Line
+	13300 7400 13400 7400
+Wire Wire Line
+	13300 7600 13400 7600
+Wire Wire Line
+	13300 7700 13400 7700
+Wire Wire Line
+	13300 7800 13400 7800
+Wire Wire Line
+	13300 7900 13400 7900
+Wire Wire Line
+	13300 8000 13400 8000
+Wire Wire Line
+	13300 8100 13400 8100
+Wire Wire Line
+	13300 8200 13400 8200
+Wire Wire Line
+	13300 8300 13400 8300
+Wire Wire Line
+	13400 2700 13300 2700
+Wire Wire Line
+	13300 1100 13400 1100
+Wire Wire Line
+	13300 1200 13400 1200
+Wire Wire Line
+	13300 1300 13400 1300
+Wire Wire Line
+	13300 1400 13400 1400
+Wire Wire Line
+	13300 1500 13400 1500
+Wire Wire Line
+	13300 1600 13400 1600
+Wire Wire Line
+	13300 1700 13400 1700
+Wire Wire Line
+	13300 1800 13400 1800
+Wire Wire Line
+	13300 1900 13400 1900
+Text Label 12200 1400 2    60   ~ 0
+M_A0
+Text Label 12200 1500 2    60   ~ 0
+M_A1
+Text Label 12200 1600 2    60   ~ 0
+M_A2
+Text Label 12200 1700 2    60   ~ 0
+M_A3
+Text Label 12200 1800 2    60   ~ 0
+M_A4
+Text Label 12200 1900 2    60   ~ 0
+M_A5
+Text Label 12200 2000 2    60   ~ 0
+M_A6
+Text Label 12200 2100 2    60   ~ 0
+M_A7
+Text Label 12200 2200 2    60   ~ 0
+M_A8
+Text Label 12200 2300 2    60   ~ 0
+M_A9
+Text Label 12200 2400 2    60   ~ 0
+M_A10
+Text Label 12200 2500 2    60   ~ 0
+M_A11
+Text Label 12200 2600 2    60   ~ 0
+M_A12
+Text Label 12200 2700 2    60   ~ 0
+M_A13
+Text Label 12200 2800 2    60   ~ 0
+M_A14
+Text Label 12200 2900 2    60   ~ 0
+M_A15
+Text Label 12200 3000 2    60   ~ 0
+M_A16
+Text Label 12200 3100 2    60   ~ 0
+M_A17
+Text Label 12200 3200 2    60   ~ 0
+M_A18
+Text Label 12200 3300 2    60   ~ 0
+M_A19
+Text Label 13400 2700 0    60   ~ 0
+M_A20
+Text Label 13400 1200 0    60   ~ 0
+M_D0
+Text Label 13400 1300 0    60   ~ 0
+M_D1
+Text Label 13400 1400 0    60   ~ 0
+M_D2
+Text Label 13400 1500 0    60   ~ 0
+M_D3
+Text Label 13400 1600 0    60   ~ 0
+M_D4
+Text Label 13400 1700 0    60   ~ 0
+M_D5
+Text Label 13400 1800 0    60   ~ 0
+M_D6
+Text Label 13400 1900 0    60   ~ 0
+M_D7
+$Comp
+L S29AL016J-T U?
+U 1 1 535EF6E7
+P 12800 5200
+F 0 "U?" H 12800 6400 60  0000 C CNN
+F 1 "S29AL016J-T" H 12800 4000 60  0000 C CNN
+F 2 "" H 12800 4100 60  0000 C CNN
+F 3 "" H 12800 4100 60  0000 C CNN
+	1    12800 5200
+	1    0    0    -1  
+$EndComp
+Text Label 12200 4100 2    60   ~ 0
+~M_CE3
+Text Label 12200 4300 2    60   ~ 0
+~M_WE
+Text Label 12200 4200 2    60   ~ 0
+~M_OE
+Text Label 13400 4100 0    60   ~ 0
+M_RDY
+Wire Wire Line
+	12200 4100 12300 4100
+Wire Wire Line
+	12200 4200 12300 4200
+Wire Wire Line
+	12200 4300 12300 4300
+Wire Wire Line
+	12200 4400 12300 4400
+Wire Wire Line
+	12200 4500 12300 4500
+Wire Wire Line
+	12200 4600 12300 4600
+Wire Wire Line
+	12200 4700 12300 4700
+Wire Wire Line
+	12200 4800 12300 4800
+Wire Wire Line
+	12200 4900 12300 4900
+Wire Wire Line
+	12200 5000 12300 5000
+Wire Wire Line
+	12200 5100 12300 5100
+Wire Wire Line
+	12200 5200 12300 5200
+Wire Wire Line
+	12200 5300 12300 5300
+Wire Wire Line
+	12200 5400 12300 5400
+Wire Wire Line
+	12200 5500 12300 5500
+Wire Wire Line
+	12200 5600 12300 5600
+Wire Wire Line
+	12200 5700 12300 5700
+Wire Wire Line
+	12200 5800 12300 5800
+Wire Wire Line
+	12200 5900 12300 5900
+Wire Wire Line
+	12200 6000 12300 6000
+Wire Wire Line
+	12200 6100 12300 6100
+Wire Wire Line
+	12200 6200 12300 6200
+Wire Wire Line
+	12200 6300 12300 6300
+Wire Wire Line
+	13400 5700 13300 5700
+Wire Wire Line
+	13300 4100 13400 4100
+Wire Wire Line
+	13300 4200 13400 4200
+Wire Wire Line
+	13300 4300 13400 4300
+Wire Wire Line
+	13300 4400 13400 4400
+Wire Wire Line
+	13300 4500 13400 4500
+Wire Wire Line
+	13300 4600 13400 4600
+Wire Wire Line
+	13300 4700 13400 4700
+Wire Wire Line
+	13300 4800 13400 4800
+Wire Wire Line
+	13300 4900 13400 4900
+Text Label 12200 4400 2    60   ~ 0
+M_A0
+Text Label 12200 4500 2    60   ~ 0
+M_A1
+Text Label 12200 4600 2    60   ~ 0
+M_A2
+Text Label 12200 4700 2    60   ~ 0
+M_A3
+Text Label 12200 4800 2    60   ~ 0
+M_A4
+Text Label 12200 4900 2    60   ~ 0
+M_A5
+Text Label 12200 5000 2    60   ~ 0
+M_A6
+Text Label 12200 5100 2    60   ~ 0
+M_A7
+Text Label 12200 5200 2    60   ~ 0
+M_A8
+Text Label 12200 5300 2    60   ~ 0
+M_A9
+Text Label 12200 5400 2    60   ~ 0
+M_A10
+Text Label 12200 5500 2    60   ~ 0
+M_A11
+Text Label 12200 5600 2    60   ~ 0
+M_A12
+Text Label 12200 5700 2    60   ~ 0
+M_A13
+Text Label 12200 5800 2    60   ~ 0
+M_A14
+Text Label 12200 5900 2    60   ~ 0
+M_A15
+Text Label 12200 6000 2    60   ~ 0
+M_A16
+Text Label 12200 6100 2    60   ~ 0
+M_A17
+Text Label 12200 6200 2    60   ~ 0
+M_A18
+Text Label 12200 6300 2    60   ~ 0
+M_A19
+Text Label 13400 5700 0    60   ~ 0
+M_A20
+Text Label 13400 4200 0    60   ~ 0
+M_D0
+Text Label 13400 4300 0    60   ~ 0
+M_D1
+Text Label 13400 4400 0    60   ~ 0
+M_D2
+Text Label 13400 4500 0    60   ~ 0
+M_D3
+Text Label 13400 4600 0    60   ~ 0
+M_D4
+Text Label 13400 4700 0    60   ~ 0
+M_D5
+Text Label 13400 4800 0    60   ~ 0
+M_D6
+Text Label 13400 4900 0    60   ~ 0
+M_D7
+Text Label 4300 1300 0    60   ~ 0
+M_A15
+Text Label 4300 1200 0    60   ~ 0
+M_A14
+Text Label 4300 1100 0    60   ~ 0
+M_A13
+Text Label 4300 1000 0    60   ~ 0
+M_A12
+Text Label 4300 900  0    60   ~ 0
+M_A11
+Text Label 13400 7600 0    60   ~ 0
+M_D0
+Text Label 13400 7700 0    60   ~ 0
+M_D1
+Text Label 13400 7800 0    60   ~ 0
+M_D2
+Text Label 13400 7900 0    60   ~ 0
+M_D3
+Text Label 13400 8000 0    60   ~ 0
+M_D4
+Text Label 13400 8100 0    60   ~ 0
+M_D5
+Text Label 13400 8200 0    60   ~ 0
+M_D6
+Text Label 13400 8300 0    60   ~ 0
+M_D7
+Text Label 12200 7200 2    60   ~ 0
+M_A0
+Text Label 12200 7300 2    60   ~ 0
+M_A1
+Text Label 12200 7400 2    60   ~ 0
+M_A2
+Text Label 12200 7500 2    60   ~ 0
+M_A3
+Text Label 12200 7600 2    60   ~ 0
+M_A4
+Text Label 12200 7700 2    60   ~ 0
+M_A5
+Text Label 12200 7800 2    60   ~ 0
+M_A6
+Text Label 12200 7900 2    60   ~ 0
+M_A7
+Text Label 12200 8000 2    60   ~ 0
+M_A8
+Text Label 12200 8100 2    60   ~ 0
+M_A9
+Text Label 12200 8200 2    60   ~ 0
+M_A10
+Text Label 12200 8300 2    60   ~ 0
+M_A11
+Text Label 12200 8400 2    60   ~ 0
+M_A12
+Text Label 12200 8500 2    60   ~ 0
+M_A13
+Text Label 12200 8600 2    60   ~ 0
+M_A14
+Text Label 12200 8700 2    60   ~ 0
+M_A15
+Text Label 12200 8800 2    60   ~ 0
+M_A16
+Text Label 12200 8900 2    60   ~ 0
+M_A17
+Text Label 12200 9000 2    60   ~ 0
+M_A18
+Wire Wire Line
+	4200 800  4300 800 
+Wire Wire Line
+	4200 900  4300 900 
+Wire Wire Line
+	4200 1000 4300 1000
+Wire Wire Line
+	4200 1100 4300 1100
+Wire Wire Line
+	4200 1200 4300 1200
+Wire Wire Line
+	4200 1300 4300 1300
+Wire Wire Line
+	4200 1700 4300 1700
+Wire Wire Line
+	4200 1800 4300 1800
+Wire Wire Line
+	4200 2700 4300 2700
+Wire Wire Line
+	4200 2800 4300 2800
+Wire Wire Line
+	2700 800  2800 800 
+Wire Wire Line
+	2700 900  2800 900 
+Wire Wire Line
+	2700 1000 2800 1000
+Wire Wire Line
+	2700 1200 2800 1200
+Wire Wire Line
+	2700 1300 2800 1300
+Wire Wire Line
+	2700 1400 2800 1400
+Wire Wire Line
+	2700 1500 2800 1500
+Wire Wire Line
+	2700 1900 2800 1900
+Wire Wire Line
+	2700 2000 2800 2000
+Wire Wire Line
+	2700 2100 2800 2100
+Wire Wire Line
+	2700 2200 2800 2200
+Wire Wire Line
+	2700 2300 2800 2300
+Wire Wire Line
+	2700 3000 2800 3000
+Wire Wire Line
+	2700 3100 2800 3100
+Wire Wire Line
+	2700 3400 2800 3400
+Wire Wire Line
+	2700 3500 2800 3500
+Wire Wire Line
+	2700 3600 2800 3600
+Wire Wire Line
+	2700 3700 2800 3700
+Wire Wire Line
+	2700 4600 2800 4600
+Wire Wire Line
+	2700 4700 2800 4700
+Wire Wire Line
+	2700 4800 2800 4800
+Wire Wire Line
+	2700 4900 2800 4900
+Wire Wire Line
+	2700 5000 2800 5000
+Wire Wire Line
+	2700 5100 2800 5100
+Wire Wire Line
+	2700 5800 2800 5800
+Wire Wire Line
+	2700 5900 2800 5900
+Wire Wire Line
+	2700 6000 2800 6000
+Wire Wire Line
+	2700 6100 2800 6100
+Wire Wire Line
+	1200 5400 1300 5400
+Wire Wire Line
+	1200 5500 1300 5500
+Wire Wire Line
+	1200 5600 1300 5600
+Wire Wire Line
+	1200 5700 1300 5700
+Wire Wire Line
+	1200 5800 1300 5800
+Wire Wire Line
+	1200 6000 1300 6000
+Wire Wire Line
+	1200 6100 1300 6100
+Wire Wire Line
+	1200 2100 1300 2100
+Wire Wire Line
+	1200 2200 1300 2200
+Wire Wire Line
+	1200 2300 1300 2300
+Wire Wire Line
+	1200 3000 1300 3000
+Wire Wire Line
+	1200 3100 1300 3100
+Wire Wire Line
+	1300 3400 1200 3400
+Text Label 1300 800  0    60   ~ 0
+B_D0
+Text Label 1300 900  0    60   ~ 0
+B_D1
+Text Label 1300 1000 0    60   ~ 0
+B_D2
+Text Label 1300 1100 0    60   ~ 0
+B_D3
+Text Label 1300 1200 0    60   ~ 0
+B_D4
+Text Label 1300 1300 0    60   ~ 0
+B_D5
+Text Label 1300 1400 0    60   ~ 0
+B_D6
+Text Label 1300 1500 0    60   ~ 0
+B_D7
+$Comp
+L CRYSTAL X?
+U 1 1 535F01B6
+P 9050 7700
+F 0 "X?" H 9050 7850 60  0000 C CNN
+F 1 "12MHz" H 9050 7550 60  0000 C CNN
+F 2 "XTAL-4SMD-32X25" H 9050 7700 60  0001 C CNN
+F 3 "~" H 9050 7700 60  0000 C CNN
+F 4 "NDK" H 9050 7700 60  0001 C CNN "MFR Name"
+F 5 "NX3225GA-12MHZ- STD-CRG-2" H 9050 7700 60  0001 C CNN "MFR Part No"
+F 6 "644-1173-1-ND" H 9050 7700 60  0001 C CNN "Distributor Part No"
+	1    9050 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 535F01C1
+P 8700 8050
+F 0 "C?" H 8750 8200 60  0000 L CNN
+F 1 "10pF" H 8750 7900 60  0000 L CNN
+F 2 "CAPC1005-N" H 8700 8050 60  0001 C CNN
+F 3 "~" H 8700 8050 60  0000 C CNN
+F 4 "Yageo" H 8700 8050 60  0001 C CNN "MFR Name"
+F 5 "CC0402JRNPO9BN100" H 8700 8050 60  0001 C CNN "MFR Part No"
+F 6 "311-1014-1-ND" H 8700 8050 60  0001 C CNN "Distributor Part No"
+F 7 "50V" H 8650 7900 60  0001 R CNN "Voltage"
+F 8 "NP0" H 8650 8200 60  0001 R CNN "Dielectric"
+	1    8700 8050
+	-1   0    0    -1  
+$EndComp
+Text Label 8700 7600 1    60   ~ 0
+OSC0
+Text Label 9400 7600 1    60   ~ 0
+OSC1
+Wire Wire Line
+	9400 7600 9400 7800
+Wire Wire Line
+	8700 7600 8700 7800
+Wire Wire Line
+	8800 7700 8700 7700
+Connection ~ 8700 7700
+Wire Wire Line
+	9300 7700 9400 7700
+Connection ~ 9400 7700
+$Comp
+L GND #PWR?
+U 1 1 535F01CF
+P 8700 8400
+F 0 "#PWR?" H 8700 8400 30  0001 C CNN
+F 1 "GND" H 8700 8330 30  0001 C CNN
+F 2 "" H 8700 8400 60  0000 C CNN
+F 3 "" H 8700 8400 60  0000 C CNN
+	1    8700 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 535F01D5
+P 9400 8400
+F 0 "#PWR?" H 9400 8400 30  0001 C CNN
+F 1 "GND" H 9400 8330 30  0001 C CNN
+F 2 "" H 9400 8400 60  0000 C CNN
+F 3 "" H 9400 8400 60  0000 C CNN
+	1    9400 8400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 8400 9400 8300
+Wire Wire Line
+	8700 8300 8700 8400
+$Comp
+L C C?
+U 1 1 535F01E2
+P 9400 8050
+F 0 "C?" H 9450 8200 60  0000 L CNN
+F 1 "10pF" H 9450 7900 60  0000 L CNN
+F 2 "CAPC1005-N" H 9400 8050 60  0001 C CNN
+F 3 "~" H 9400 8050 60  0000 C CNN
+F 4 "Yageo" H 9400 8050 60  0001 C CNN "MFR Name"
+F 5 "CC0402JRNPO9BN100" H 9400 8050 60  0001 C CNN "MFR Part No"
+F 6 "311-1014-1-ND" H 9400 8050 60  0001 C CNN "Distributor Part No"
+F 7 "50V" H 9350 7900 60  0001 R CNN "Voltage"
+F 8 "NP0" H 9350 8200 60  0001 R CNN "Dielectric"
+	1    9400 8050
+	1    0    0    -1  
+$EndComp
+Text Label 4300 2900 0    60   ~ 0
+B_DCLK
+Text Label 4300 3000 0    60   ~ 0
+~B_DBSY
+Text Label 4300 3100 0    60   ~ 0
+SCL2
+Text Label 4300 3200 0    60   ~ 0
+SDA2
+Text Label 1300 3500 0    60   ~ 0
+SCL1
+Text Label 1300 3600 0    60   ~ 0
+SDA1
+Text Label 1300 1900 0    60   ~ 0
+CAN_RX
+Text Label 1300 2000 0    60   ~ 0
+CAN_TX
+Text Label 1300 1700 0    60   ~ 0
+TX1
+Text Label 1300 1800 0    60   ~ 0
+RX1
+Text Label 2800 1600 0    60   ~ 0
+TX3
+Text Label 2800 1700 0    60   ~ 0
+RX3
+Text Label 1300 5200 0    60   ~ 0
+TX6
+Text Label 1300 5300 0    60   ~ 0
+RX6
 $EndSCHEMATC

@@ -1,6 +1,6 @@
-update=2/26/2014 3:02:48 AM
+update=4/28/2014 10:47:34 PM
 version=1
-last_client=cvpcb
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
 LibName1=Aerodyne_v2
 LibDir=../../KiCadLib
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../KiCadLib
@@ -41,3 +39,5 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
