@@ -1,5 +1,5 @@
 #MicroXplorer Configuration settings - do not modify
-#Mon Apr 28 22:47:00 CDT 2014
+#Wed Apr 30 17:46:08 CDT 2014
 CAN1.CalculateTimeBit-Master=1143
 CAN1.CalculateTimeQuantum-Master=381
 CAN1.IPParameters=CalculateTimeBit-Master,CalculateTimeQuantum-Master
@@ -214,7 +214,7 @@ RCC.APB2CLKDivider=RCC_HCLK_DIV2
 RCC.FamilyName=M
 RCC.HSE_VALUE=12000000
 RCC.HSI_VALUE=16000000
-RCC.IPParameters=SAI_BClocksFreq_Value,APB2TimFreq_Value,FCLKCortexFreq_Value,AHBFreq_Value,APB2Freq_Value,PLLM,PLLN,48MHZClocksFreq_Value,LCDTFTFreq_Value,I2SClocksFreq_Value,RTCFreq_Value,CortexFreq_Value,APB2CLKDivider,HSI_VALUE,SAI_AClocksFreq_Value,PLLCLKFreq_Value,FamilyName,APB1TimFreq_Value,EthernetFreq_Value,RTCHSEDivFreq_Value,VCOInputFreq_Value,SYSCLKFreq_VALUE,HCLKFreq_Value,PLLSource,VCOSAIOutputFreq_Value,VCOI2SOutputFreq_Value,LSI_VALUE,APB1Freq_Value,APB1CLKDivider,HSE_VALUE,LSE_VALUE,RCC_RTC_Clock_Source,PLLQ,VCOOutputFreq_Value,SYSCLKSource,MCO2PinFreq_Value
+RCC.IPParameters=APB2TimFreq_Value,FCLKCortexFreq_Value,AHBFreq_Value,APB2Freq_Value,PLLM,PLLN,48MHZClocksFreq_Value,LCDTFTFreq_Value,I2SClocksFreq_Value,RTCFreq_Value,CortexFreq_Value,APB2CLKDivider,HSI_VALUE,SAI_AClocksFreq_Value,PLLCLKFreq_Value,FamilyName,APB1TimFreq_Value,RTCHSEDivFreq_Value,VCOInputFreq_Value,SYSCLKFreq_VALUE,HCLKFreq_Value,PLLSource,VCOI2SOutputFreq_Value,VCOSAIOutputFreq_Value,LSI_VALUE,APB1Freq_Value,APB1CLKDivider,HSE_VALUE,LSE_VALUE,PLLQ,RCC_RTC_Clock_Source,SYSCLKSource,VCOOutputFreq_Value,MCO2PinFreq_Value
 RCC.LSE_VALUE=32768
 RCC.LSI_VALUE=32000
 RCC.PLLM=8
