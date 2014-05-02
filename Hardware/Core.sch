@@ -8,7 +8,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 4
 Title "Hyperion"
-Date "30 apr 2014"
+Date "1 may 2014"
 Rev "0.2"
 Comp "Aerodyne Labs"
 Comment1 "ethanharstad@gmail.com"
@@ -1919,4 +1919,101 @@ Wire Wire Line
 	6600 9100 6700 9100
 Wire Wire Line
 	6700 9100 6700 9400
+$Comp
+L SDCARD-FULL-MICRO U?
+U 1 1 5362C961
+P 2800 7650
+F 0 "U?" H 2800 8100 60  0000 C CNN
+F 1 "uSD-CARD" H 2800 7200 60  0000 C CNN
+F 2 "" H 2800 7650 60  0000 C CNN
+F 3 "" H 2800 7650 60  0000 C CNN
+	1    2800 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5362C973
+P 4000 7650
+F 0 "C?" H 4050 7800 60  0000 L CNN
+F 1 "0.1uF" H 4050 7500 60  0000 L CNN
+F 2 "CAPC1005-N" H 4000 7650 60  0001 C CNN
+F 3 "~" H 4000 7650 60  0000 C CNN
+F 4 "Samsung" H 4000 7650 60  0001 C CNN "MFR Name"
+F 5 "CL05A104MP5NNNC" H 4000 7650 60  0001 C CNN "MFR Part No"
+F 6 "1276-1443-1-ND" H 4000 7650 60  0001 C CNN "Distributor Part No"
+F 7 "10V" H 3950 7500 60  0001 R CNN "Voltage"
+F 8 "X5R" H 3950 7800 60  0001 R CNN "Dielectric"
+	1    4000 7650
+	1    0    0    -1  
+$EndComp
+Text Label 3400 7700 0    60   ~ 0
+SD_D0
+Text Label 3400 7800 0    60   ~ 0
+SD_D1
+Text Label 3400 7900 0    60   ~ 0
+SD_D2
+Text Label 3400 8000 0    60   ~ 0
+SD_D3
+Text Label 3400 7600 0    60   ~ 0
+SD_CK
+Text Label 3400 7500 0    60   ~ 0
+SD_CMD
+$Comp
+L GND #PWR?
+U 1 1 5362C997
+P 3300 8100
+F 0 "#PWR?" H 3300 8100 30  0001 C CNN
+F 1 "GND" H 3300 8030 30  0001 C CNN
+F 2 "" H 3300 8100 60  0000 C CNN
+F 3 "" H 3300 8100 60  0000 C CNN
+	1    3300 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 5362C9A6
+P 3300 7200
+F 0 "#PWR?" H 3300 7160 30  0001 C CNN
+F 1 "+3.3V" H 3300 7310 30  0000 C CNN
+F 2 "" H 3300 7200 60  0000 C CNN
+F 3 "" H 3300 7200 60  0000 C CNN
+	1    3300 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 7200 3300 7300
+Wire Wire Line
+	3200 7300 4000 7300
+Wire Wire Line
+	3200 7400 3300 7400
+Wire Wire Line
+	3300 7400 3300 8100
+Wire Wire Line
+	3200 7500 3400 7500
+Wire Wire Line
+	3200 7600 3400 7600
+Wire Wire Line
+	3200 7700 3400 7700
+Wire Wire Line
+	3200 7800 3400 7800
+Wire Wire Line
+	3200 7900 3400 7900
+Wire Wire Line
+	3200 8000 3400 8000
+Wire Wire Line
+	4000 7300 4000 7400
+Connection ~ 3300 7300
+$Comp
+L GND #PWR?
+U 1 1 5362CF7A
+P 4000 8100
+F 0 "#PWR?" H 4000 8100 30  0001 C CNN
+F 1 "GND" H 4000 8030 30  0001 C CNN
+F 2 "" H 4000 8100 60  0000 C CNN
+F 3 "" H 4000 8100 60  0000 C CNN
+	1    4000 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 8100 4000 7900
 $EndSCHEMATC
