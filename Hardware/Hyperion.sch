@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "Hyperion"
-Date "2 may 2014"
+Date "4 may 2014"
 Rev "0.2"
 Comp "Aerodyne Labs"
 Comment1 "ethanharstad@gmail.com"
@@ -41,7 +41,7 @@ F18 "CANH" B L 8600 5000 60
 F19 "CANL" B L 8600 5100 60 
 $EndSheet
 $Sheet
-S 1800 3200 1000 1000
+S 1800 3200 1000 1700
 U 530DB905
 F0 "Interface Port" 50
 F1 "Interface-Port.sch" 50
@@ -52,6 +52,12 @@ F5 "TMS" O R 2800 3600 60
 F6 "TXD" O R 2800 4000 60 
 F7 "RXD" I R 2800 4100 60 
 F8 "RST" O R 2800 3800 60 
+F9 "S2" U R 2800 4500 60 
+F10 "S3" U R 2800 4600 60 
+F11 "S4" U R 2800 4700 60 
+F12 "S5" U R 2800 4800 60 
+F13 "S1" U R 2800 4400 60 
+F14 "S0" U R 2800 4300 60 
 $EndSheet
 $Sheet
 S 5350 2400 1000 2000

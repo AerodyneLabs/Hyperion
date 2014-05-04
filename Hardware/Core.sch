@@ -8,7 +8,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 4
 Title "Hyperion"
-Date "2 may 2014"
+Date "4 may 2014"
 Rev "0.2"
 Comp "Aerodyne Labs"
 Comment1 "ethanharstad@gmail.com"
